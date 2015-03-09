@@ -30,8 +30,7 @@ public class ComplexNumber {
     }
     
     public String formatComplexNumberPolar() {
-		String r = "Modulo:" + this.getModulus() + "  Argomento:"
-				+ this.getArgument();
+		String r = "Modulo:" + this.getModulus() + "  Argomento:" + this.getArgument();
 		return r;
 	}
     
